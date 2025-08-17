@@ -1,0 +1,11 @@
+{
+  "dependencies": {},
+  "devDependencies": {
+    "vitepress": "^2.0.0-alpha.11"
+  },
+  "scripts": {
+		"dev": "bunx vitepress dev docs",
+		"build": "bunx vitepress build docs",
+		"preview": "bunx --bun vitepress preview docs"
+  }
+}
